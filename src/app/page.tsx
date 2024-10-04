@@ -95,7 +95,7 @@ const page = () => {
               <img
                 src="https://s3-alpha-sig.figma.com/img/333e/7de3/112657d94a9a20a4a57a4dffa69efd92?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hoDOTxUFp5JRniT2LcQp-3eR4OlHfEXbsFtTQUmzAtwT~Jr25q8aoPDEdiFKhudFIKXSkuTeL4KKN04OAj3L2ahIYM9~Zfs-szTNZYWUUiIjXfgP2B-V28izRfK6Miz2GYj0MNWTyfdWIlUeMm8zb6DROX53jfsFqVCXUUarkIfI1gzWN6gx0vQxqCU8KiTv1mb3zNHNAU8uX3HiBV75FGG3Grw5qylY-gLLV8CBz5zBWDjXRuW68gECoHZAe5nhX5fz~uFfAYh6En~wcKZnLrKfrLDJ6DH308yrDjiCqOZCiafS8hvv54xAupFhnozKaYVa3VueIHz3j3MxnV1HBg__"
                 alt=""
-                className="h-40 sm:w-72 w-80 object-cover"
+                className="h-40 sm:w-72 w-[20rem] object-cover"
               />
             </div>
 
