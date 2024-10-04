@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <header className="bg-white shadow-sm">
     
-      <div className="flex justify-between items-center px-4 lg:px-8 py-2 w-[90%] m-auto">
+      <div className="flex justify-between items-center px-4 lg:px-8 py-2 w-[95%] m-auto">
        
         
         <div className="hidden md:flex items-center space-x-6 text-sm">
