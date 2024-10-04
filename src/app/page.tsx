@@ -165,7 +165,7 @@ const page = () => {
       
       <div className="flex lg:flex-row flex-col w-[90%] m-auto sm:mt-28 mt-[30rem]  ">
         <div className="relative sm:mx-10 w-full mt-8">
-          <img src="/asset/Group 22.png" alt="" className="sm:w-auto h-auto w-[19rem] m-auto " />
+          <img src="/asset/Group 22.png" alt="" className="sm:w-auto h-auto w-[19rem] sm:m-0 m-auto  " />
           <div className="absolute -bottom-5 sm:-left-10 -left-0 sm:h-36 sm:w-36 h-28 w-28 bg-[#031C48] flex items-center justify-center flex-col gap-2">
             <span className="text-white font-semibold text-lg font-sans">
               45K
