@@ -17,6 +17,26 @@ const Footer = () => {
               world.
             </p>
           </div>
+          
+          {/* for mobile view */}
+          <div className="w-full sm:hidden block py-2">
+            <h4 className="text-gray-800 font-semibold mb-4">
+              Stay up to date
+            </h4>
+            <form className="flex flex-col gap-4">
+              <input
+                type="email"
+                placeholder="Enter your email"
+                className="border border-gray-300 rounded px-4 py-2 w-full"
+              />
+              <button
+                type="submit"
+                className="bg-blue-600 text-white rounded px-4 py-2 mb-3"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
 
           {/* Middle Section - Product & Resources Links */}
           <div className="flex flex-wrap lg:w-1/3">
@@ -125,7 +145,7 @@ const Footer = () => {
           </div>
 
           {/* Right Section - Subscribe Form */}
-          <div className="lg:w-1/3">
+          <div className="lg:w-1/3 sm:block hidden">
             <h4 className="text-gray-800 font-semibold mb-4">
               Stay up to date
             </h4>
