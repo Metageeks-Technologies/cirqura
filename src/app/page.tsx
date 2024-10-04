@@ -88,7 +88,7 @@ const page = () => {
 
         {/* Stats Section */}
         
-        <section className="bg-black absolute sm:-bottom-12  lg:left-20 sm:left-0 left-10 flex justify-center ">
+        <section className="bg-black absolute sm:-bottom-12  lg:left-96 sm:left-0 left-10 flex justify-center ">
           <div className="container mx-auto flex sm:flex-row flex-col justify-around text-white">
 
             <div>
