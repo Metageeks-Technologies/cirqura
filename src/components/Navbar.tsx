@@ -59,10 +59,10 @@ const Navbar = () => {
 
           {/* Nav Links for larger screens */}
           <div className="hidden md:flex  lg:space-x-20 sm:space-x-2  text-sm">
-            <Link href="#" className="hover:font-bold">
+            <Link href="/" className="hover:font-bold">
               Home
             </Link>
-            <Link href="#" className="hover:font-bold">
+            <Link href="/about-us" className="hover:font-bold">
               About
             </Link>
             <Link href="#" className="hover:font-bold">
@@ -78,7 +78,7 @@ const Navbar = () => {
 
           {/* Call to action buttons */}
           <div className="hidden md:flex lg:space-x-4">
-            <Link href="#" className="py-5 px-5 text-blue-600 font-bold">
+            <Link href="/contact-us" className="py-5 px-5 text-blue-600 font-bold">
               Contact Us
             </Link>
             <Link href="#" className="py-5 px-5 bg-[#0043B7] text-white font-bold">

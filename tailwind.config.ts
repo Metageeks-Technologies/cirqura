@@ -9,14 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        colors: {
-          background: '#FFFFFF', // Light mode background
-          foreground: '#000000', // Light mode text color
-          
-        },
+        background: '#FFFFFF', 
+        foreground: '#000000',
+      },
+      fontFamily: {
+        chillax: ['Chillax', 'sans-serif'], 
       },
     },
   },
   plugins: [],
 };
+
 export default config;
