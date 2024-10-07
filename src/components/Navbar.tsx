@@ -65,15 +65,7 @@ const Navbar = () => {
             <Link href="/about-us" className="hover:font-bold">
               About
             </Link>
-            <Link href="#" className="hover:font-bold">
-              Services
-            </Link>
-            <Link href="#" className="hover:font-bold">
-              Portfolio
-            </Link>
-            <Link href="#" className="hover:font-bold">
-              Blogs
-            </Link>
+          
           </div>
 
           {/* Call to action buttons */}
@@ -144,22 +136,14 @@ const Navbar = () => {
         {/* Dropdown menu for mobile screens */}
         {isOpen && (
           <div className="md:hidden flex flex-col space-y-4 px-4 py-2 bg-white">
-            <Link href="#" className="hover:font-bold">
+            <Link href="/" className="hover:font-bold">
               Home
             </Link>
-            <Link href="#" className="hover:font-bold">
+            <Link href="/about-us" className="hover:font-bold">
               About
             </Link>
-            <Link href="#" className="hover:font-bold">
-              Services
-            </Link>
-            <Link href="#" className="hover:font-bold">
-              Portfolio
-            </Link>
-            <Link href="#" className="hover:font-bold">
-              Blogs
-            </Link>
-            <Link href="#" className=" text-blue-600 font-bold">
+           
+            <Link href="/contact-us" className=" text-blue-600 font-bold">
               Contact Us
             </Link>
             <Link href="#" className="  text-blue-600 font-bold">

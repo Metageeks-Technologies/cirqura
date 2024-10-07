@@ -4,17 +4,21 @@ import { IoMdArrowRoundDown } from 'react-icons/io'
 const AboutSection = () => {
   return (
     <div className="flex lg:flex-row flex-col w-[90%] m-auto sm:mt-28 mt-[30rem]  ">
-    <div className="relative sm:mx-10 w-full mt-8">
-      <img src="/asset/Group 22.png" alt="" className="sm:w-auto h-auto w-[19rem] sm:m-0 m-auto  " />
-      <div className="absolute -bottom-5 sm:-left-10 -left-0 sm:h-36 sm:w-36 h-28 w-28 bg-[#031C48] flex items-center justify-center flex-col gap-2">
-        <span className="text-white font-semibold text-lg font-sans">
-          45K
-        </span>
-        <p className="text-white font-semibold text-lg uppercase font-sans">
-          People
-        </p>
-      </div>
-    </div>
+      <div className="relative sm:mx-10 w-full mt-8">
+          <img
+            src="/asset/Group 22.png"
+            alt=""
+            className="sm:w-auto h-auto w-[19rem] sm:m-0 m-auto  "
+          />
+          <div className="absolute -bottom-5 sm:-left-10 -left-0 sm:h-36 sm:w-36 h-28 w-28 bg-[#031C48] flex items-center justify-center flex-col gap-2">
+            <span className="text-white font-semibold text-lg font-sans">
+              45K
+            </span>
+            <p className="text-white font-semibold text-lg uppercase font-sans">
+              People
+            </p>
+          </div>
+        </div>
 
     <div className="py-10">
       <h1
@@ -29,7 +33,7 @@ const AboutSection = () => {
       <h1 className="text-2xl  uppercase font-bold mt-3 font-sans">
         Cirqura is Recycle
       </h1>
-      <p className="uppercase py-10 w-[85%]">
+      <p className="uppercase py-10 sm:w-[85%]">
         Cirqura is dedicated to [industry-specific mission]. Our team
         combines cutting-edge technology and expertise to deliver innovative
         solutions that cater to [target audience’s needs]. Our focus is on
